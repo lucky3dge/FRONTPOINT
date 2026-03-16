@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>ABOUT </title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/script.js" defer></script>
+  <link rel="stylesheet" href="font-awesome.min.css">
+  <!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+
+<!-- Font Awesome (REQUIRED for icons) -->
+<link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Bootstrap 5 Bundle JS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap 5 JS bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="html/js/script.js" defer></script>
+</head>
+
+<body data-page="index">
+  <!-- Nav Bar -->
+  <section class="nav1">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+<div class="container">
+
+  <!-- Brand with Logo -->
+ <a class="navbar-brand" href="#">
+   <img src="img/logo.png" class="brand-logo">
+   <div>
+     <span class="brand-main">FRONTPOINT</span><br>
+     <span class="brand-sub">GLOBAL ENTERPRISE</span><br>
+   </div>
+ </a>
+ <!-- Toggle button -->
+ <button class="navbar-toggler d-lg-none" type="button"
+         data-bs-toggle="offcanvas"
+         data-bs-target="#offcanvasRight"
+         aria-controls="offcanvasRight"
+         id="menuToggler">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+
+ <!-- Offcanvas sidebar -->
+ <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+   <div class="offcanvas-header">
+     <h3 id="offcanvasRightLabel">Menu</h3>
+     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+   </div>
+   <div class="offcanvas-body">
+     <a href="index.html" class="menu-item"><i class="bi bi-house-fill"></i>Home</a>
+     <a href="products.html" class="menu-item"><i class="bi bi-box-seam"></i>Products</a>
+     <a href="contact.html" class="menu-item"><i class="bi bi-telephone-fill"></i>Contact</a>
+     <a href="about.html" class="menu-item"><i class="bi bi-info-circle-fill"></i>About</a>
+
+     <!-- Search -->
+     <div class="offcanvas-search">
+       <form class="d-flex" onsubmit="globalSearch(event)">
+         <input id="globalSearchInput" class="form-control" type="search" placeholder="Search products...">
+         <button class="btn btn-outline-success" type="submit">Search</button>
+       </form>
+     </div>
+   </div>
+ </div>
+
+   <!-- Menu -->
+   <div class="collapse navbar-collapse" id="mainNavbar">
+
+   <!-- Push menu to the right -->
+   <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+     <li class="nav-item">
+       <a class="nav-link active" href="index.html">Home</a>
+     </li>
+
+     <li class="nav-item">
+       <a class="nav-link" href="products.html">Products</a>
+     </li>
+
+     <li class="nav-item">
+       <a class="nav-link" href="contact.html">Contact</a>
+     </li>
+
+     <li class="nav-item">
+       <a class="nav-link" href="about.html">About</a>
+     </li>
+</ul>
+</li>
+</ul>
+
+   <!-- Search -->
+   <form class="d-flex ms-lg-3" onsubmit="globalSearch(event)">
+<input id="globalSearchInput"
+       class="form-control me-2"
+       type="search"
+       placeholder="Search products...">
+<button class="btn btn-outline-success" type="submit">Search</button>
+</form>
+
+ </div>
+</section>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- TOP IMAGE MENU -->
+    <div class="menu-header">
+    </div>
+  <!-- ABOUT SECTION -->
+ <section class="py-5 about-section">
+   <div class="container">
+
+     <!-- Title -->
+     <div class="text-center mb-5">
+       <h2 class="fw-bold display-5 about-title">About Frontpoint</h2>
+       <p class="lead text-muted">Delivering Excellence in Global Sourcing & Supply</p>
+       <div class="title-line mx-auto"></div>
+     </div>
+
+     <div class="row align-items-center">
+
+       <!-- Left Content -->
+       <div class="col-lg-6 mb-4">
+         <div class="about-card shadow-lg p-4">
+           <h4 class="fw-bold mb-3">Who We Are</h4>
+           <p>
+             Frontpoint Global Enterprise is a trusted provider of strategic procurement and
+             business services, delivering tailored solutions across global trade, supply chain
+             management, RMB payment support, and innovative contracting.
+           </p>
+
+           <p>
+             We connect Nigerian buyers with verified Chinese suppliers through transparent
+             processes, strict compliance, and efficient logistics coordination. Our goal is
+             to simplify international procurement while ensuring reliability, quality, and
+             efficiency for our clients worldwide.
+           </p>
+
+           <p>
+             Founded in 2025 by <strong>Idris Kabo</strong> — a businessman, academic researcher,
+             and economist — Frontpoint is fully registered with the Corporate Affairs Commission
+             (CAC) Nigeria under <strong>Registration No: RC 9357566</strong>.
+           </p>
+         </div>
+       </div>
+
+       <!-- Right Cards -->
+       <div class="col-lg-6">
+         <div class="row g-4">
+
+           <div class="col-md-6">
+             <div class="info-card shadow-sm text-center p-4">
+               <i class="bi bi-globe2"></i>
+               <h5>Global Trade</h5>
+               <p>Seamless import and export operations connecting international markets.</p>
+             </div>
+           </div>
+
+           <div class="col-md-6">
+             <div class="info-card shadow-sm text-center p-4">
+               <i class="bi bi-box-seam"></i>
+               <h5>Procurement</h5>
+               <p>Efficient sourcing and supply of high-quality goods for diverse industries.</p>
+             </div>
+           </div>
+
+           <div class="col-md-6">
+             <div class="info-card shadow-sm text-center p-4">
+               <i class="bi bi-truck"></i>
+               <h5>Logistics</h5>
+               <p>Reliable shipping coordination, documentation, and customs support.</p>
+             </div>
+           </div>
+
+           <div class="col-md-6">
+             <div class="info-card shadow-sm text-center p-4">
+               <i class="bi bi-shield-check"></i>
+               <h5>Compliance</h5>
+               <p>Supplier verification, quality inspection, and transparent processes.</p>
+             </div>
+           </div>
+
+         </div>
+       </div>
+
+     </div>
+
+     <!-- Sustainability Section -->
+     <div class="row mt-5">
+       <div class="col-lg-12">
+         <div class="sustainability-box shadow-lg p-5 text-center">
+           <h4 class="fw-bold mb-3">Sustainability Commitment</h4>
+           <p>
+             At Frontpoint, we believe in building a cleaner and more sustainable future.
+             We encourage the adoption of renewable energy solutions, environmentally
+             responsible products, and low-emission technologies.
+           </p>
+
+           <p>
+             By promoting solar energy systems, electric vehicles, and sustainable
+             procurement practices, we help organizations reduce their carbon footprint
+             while supporting the global goal of carbon neutrality by 2050.
+           </p>
+         </div>
+       </div>
+     </div>
+
+   </div>
+ </section>
+
+ <!-- CONTACT SECTION -->
+ <section class="py-5 text-center">
+   <div class="container d-flex justify-content-center gap-3"> <!-- smaller gap -->
+
+     <!-- Email Icon -->
+<a href="mailto:Frontpointent@outlook.com" class="contact-icon email-icon">
+  <i class="bi bi-envelope-fill"
+     style="color:#1F4E8C; font-size:1.5rem;"
+     onmouseover="this.style.color='#FF6A00';"
+     onmouseout="this.style.color='#1F4E8C';">
+  </i>
+</a>
+
+<!-- WhatsApp Icon -->
+<a href="https://wa.me/8615622784181" target="_blank" class="contact-icon whatsapp-icon">
+  <i class="bi bi-whatsapp"
+     style="color:#1F4E8C; font-size:1.5rem;"
+     onmouseover="this.style.color='#25D366';"
+     onmouseout="this.style.color='#1F4E8C';">
+  </i>
+</a>
+
+   </div>
+
+   <p class="footer-text mt-4">© 2026 Hazoond. All rights reserved.</p>
+ </section>
+
+ <!-- Bootstrap Icons CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+ </body>
+ </html>
